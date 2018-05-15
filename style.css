@@ -1,0 +1,77 @@
+body {
+	background-image: url(images/backgound-body.jpg);
+	background-size: cover;
+	cursor: pointer;
+	font-family: 'Courgette', cursive;
+}
+.my-card {
+	border: none;
+	font-size: 30px;
+	margin: 50px;
+	background-color: black;
+	opacity: 0.8;
+	color: white;
+}
+.h5-1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+.main-div {
+	background-color: black;
+	border-top: 1px solid white; 
+	border-bottom: 2px solid white;
+}
+.about-organizers {
+	background-color: black;
+	color: white;
+}
+#icon-1 {
+	font-size: 25px;
+    background-color: blue;
+}
+
+#icon-1, #icon-2{
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 25px;
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+#icon-1:hover {
+	color: #0900a1;
+    transition: 1s;
+	background-color: black;
+}
+#icon-2:hover {
+	background-color: black;
+	color: #1ccce9;
+    transition: 1s;
+}
+#id {
+	margin: 0px 10px;
+}
+.flex-parent {
+	display: flex;
+	justify-content: space-around;
+}
+.img-span > img {
+	text-align: center;
+	height: 50px;
+	width: 100px;
+}
+.img-span {
+	margin: 5px 0px;
+	padding: 0px;
+	border: 2px solid white;
+	background-color: white;
+	text-align: center;
+}
+.event-bg {
+	background-color: none;
+	opacity: 0.8;
+}
+#sadaffe {
+	height: 100px;
+	width: 100px;
+}
